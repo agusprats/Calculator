@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CALCULADORA</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<div id="container">
+        <h1>CALCULADORA</h1>
+        <div id="calculadora">
+            <form name="calc"> 
+
+                <p class="operandoa">Ingresar primer número</p>
+                <input type="Text" name="operando1" value=" "><br/> 
+                
+                <p class="operandoa">Ingresar segundo número</p>
+                <input type="Text" name="operando2" value=" "><br/> 
+            
+                <p class="operandoa">ELEGIR OPERADOR</p>
+                <input type="Button" name="" value=" + " onclick="calcula('+')" > <br/> 
+                <input type="Button" name="" value=" - " onclick="calcula('-')" > <br/> 
+                <input type="Button" name="" value=" X " onclick="calcula('*')" > <br/> 
+                <input type="Button" name="" value=" / " onclick="calcula('/')" > <br/> 
+                <br> 
+                <p class="operandoa"> RESULTADO:</p>
+                <input type="Text" name="resultado" value=" "> 
+            </form>
+        </div>
+    </div>
+		<script type="text/javascript" src="js/calculadora.js">
+			
+		</script>
+	
+</body>
+</html>
